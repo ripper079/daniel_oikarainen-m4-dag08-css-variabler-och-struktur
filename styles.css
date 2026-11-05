@@ -15,11 +15,13 @@ body {
 header {
   background-color: var(--color-secondary);
   color: var(--color-text-secondary);
-  padding: 16px 24px;
+  /* padding: 16px 24px; */
+  padding: var(--spacing-s) var(--spacing-m);
 }
 
 header h1 {
-  margin: 0 0 8px;
+  /*margin: 0 0 8  */px;
+  margin: 0 0 var(--spacing-xs);
 }
 
 nav ul {
@@ -33,7 +35,8 @@ nav a {
 }
 
 main {
-  padding: 24px;
+  /* padding: 24px; */
+  padding: var(--spacing-m);
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -46,8 +49,10 @@ article {
   background-color: var(--color-text-secondary);
   border: 1px solid #e3d5c3;
   border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 16px;
+  /* padding: 16px; */
+  padding: var(--spacing-s);
+  /* margin-bottom: 16px; */
+  margin-bottom: var(--spacing-s);
 }
 
 article img,
@@ -70,7 +75,8 @@ article img,
 footer {
   background-color: #2b1c14;
   color: var(--color-text-secondary);
-  padding: 24px;
+  /* padding: 24px; */
+  padding: var(--spacing-m);
 }
 
 footer a {
@@ -103,12 +109,14 @@ header h1 {
 
 h2 {
   font-size: 1.75rem;
-  margin: 0 0 16px;
+  /* margin: 0 0 16px; */
+  margin: 0 0 var(--spacing-s);
 }
 
 h3 {
   font-size: 1.25rem;
-  margin: 12px 0 8px;
+  /* margin: 12px 0 8px; */
+  margin: 12px 0 var(--spacing-xs);
 }
 
 .pris {
@@ -144,7 +152,8 @@ textarea:focus-visible {
 
 #hero {
   background-color: var(--color-surface);
-  padding: 32px 24px;
+  /* padding: 32px 24px; */
+  padding: var(--spacing-l) var(--spacing-m);
   border-radius: 8px;
 }
 
@@ -156,7 +165,8 @@ textarea:focus-visible {
 /* Formulär */
 .falt,
 .val {
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-bottom: var(--spacing-s);
 }
 
 label {
@@ -168,7 +178,8 @@ label {
 .val label {
   display: inline;
   font-weight: 400;
-  margin-left: 8px;
+  /* margin-left: 8px; */
+  margin-left: var(--spacing-xs);
 }
 
 input[type="text"],
@@ -188,13 +199,16 @@ textarea {
 fieldset {
   border: 1px solid #e3d5c3;
   border-radius: 8px;
-  margin: 0 0 16px;
-  padding: 12px 16px;
+  /* margin: 0 0 16px; */
+  margin: 0 0 var(--spacing-s);
+  /* padding: 12px 16px; */
+  padding: 12px var(--spacing-s);
 }
 
 legend {
   font-weight: 700;
-  padding: 0 8px;
+  /* padding: 0 8px; */
+  padding: 0 var(--spacing-xs);
 }
 
 /* ===== Dag 5: Flexbox ===== */
@@ -203,7 +217,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 8px 24px;
+  /* gap: 8px 24px; */
+  gap: var(--spacing-xs) var(--spacing-m);
 }
 
 header h1 {
@@ -219,7 +234,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 16px;
+  /* gap: 16px; */
+  gap: var(--spacing-s);
 }
 
 article {
@@ -245,7 +261,8 @@ article .pris {
 #om-oss {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 8px 32px;
+  /* gap: 8px 32px; */
+  gap: var(--spacing-xs) var(--spacing-l);
 }
 
 #om-oss h2 {
@@ -255,7 +272,8 @@ article .pris {
 /* ===== Dag 7: Responsiv design (mobile first) ===== */
 @media (min-width: 600px) {
   main {
-    padding: 32px;
+    /* padding: 32px; */
+    padding: var(--spacing-l);
   }
 
   #hero {

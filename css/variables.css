@@ -1,16 +1,16 @@
 :root {
 
-    --color-primary: #8c1010;               /* Implemented */
-    --color-secondary: #5b3a29;             /* Implemented */
+    --color-primary: #8c1010;
+    --color-secondary: #5b3a29;
 
-    --color-surface: ##f3e3cf;                  /* Implemented */
-    --color-background:#fffaf3;              /* Implemented */
+    --color-surface: #f3e3cf;
+    --color-background:#fffaf3;
 
-    --color-text-primary: #222222;          /* Implemented */
-    --color-text-secondary: #ffffff;        /* Implemented */
+    --color-text-primary: #222222;
+    --color-text-secondary: #ffffff;
 
-    --fn-family-primary: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; /* Implemented */
-    --fn-family-secondary: Georgia, "Times New Roman", serif; /* Implemented */
+    --fn-family-primary: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --fn-family-secondary: Georgia, "Times New Roman", serif;
 
     --spacing-xs: 8px;
     --spacing-s: 16px;
