@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #5b3a29;
-  color: #ffffff;
+  color: var(--color-text-secondary);
   padding: 16px 24px;
 }
 
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: #ffffff;
+  color: var(--color-text-secondary);
 }
 
 main {
@@ -43,7 +43,7 @@ section {
 }
 
 article {
-  background-color: #ffffff;
+  background-color: var(--color-text-secondary);
   border: 1px solid #e3d5c3;
   border-radius: 8px;
   padding: 16px;
@@ -60,7 +60,7 @@ article img,
 .knapp {
   display: inline-block;
   background-color: var(--color-primary);
-  color: #ffffff;
+  color: var(--color-text-secondary);
   padding: 12px 20px;
   border: 0;
   border-radius: 6px;
@@ -69,12 +69,12 @@ article img,
 
 footer {
   background-color: #2b1c14;
-  color: #ffffff;
+  color: var(--color-text-secondary);
   padding: 24px;
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--color-text-secondary);
 }
 
 address {
@@ -97,7 +97,7 @@ h3 {
 }
 
 header h1 {
-  color: #ffffff;
+  color: var(--color-text-secondary);
   font-size: 1.75rem;
 }
 
