@@ -1,10 +1,10 @@
 :root {
 
     --color-primary: #8c1010;               /* Implemented */
-    --color-secondary: #5b3a29;
+    --color-secondary: #5b3a29;             /* Implemented */
 
     --color-surface: #F3E2CC;
-    --color-background:#fffaf3;
+    --color-background:#fffaf3;              /* Implemented */
 
     --color-text-primary: #222222;          /* Implemented */
     --color-text-secondary: #ffffff;        /* Implemented */
