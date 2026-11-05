@@ -1,10 +1,10 @@
 article {
   background-color: var(--color-text-secondary);
+
   border: 1px solid #e3d5c3;
   border-radius: 8px;
-  /* padding: 16px; */
+
   padding: var(--spacing-s);
-  /* margin-bottom: 16px; */
   margin-bottom: var(--spacing-s);
 }
 
@@ -46,7 +46,6 @@ article img,
 /* Formulär */
 .falt,
 .val {
-  /* margin-bottom: 16px; */
   margin-bottom: var(--spacing-s);
 }
 
@@ -59,7 +58,6 @@ label {
 .val label {
   display: inline;
   font-weight: 400;
-  /* margin-left: 8px; */
   margin-left: var(--spacing-xs);
 }
 
