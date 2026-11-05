@@ -1,3 +1,4 @@
+/* Single elements with minimal dependency, the most general css rules here */
 *,
 *::before,
 *::after {

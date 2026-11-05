@@ -1,3 +1,6 @@
+/* Each component that is a content in its layout element/parent */
+/* Order here is from general to more specific selectors */
+
 article {
   background-color: var(--color-text-secondary);
 

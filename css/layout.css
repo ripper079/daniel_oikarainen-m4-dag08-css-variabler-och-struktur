@@ -1,8 +1,7 @@
-header {
-  background-color: var(--color-secondary);
-  color: var(--color-text-secondary);
-  padding: var(--spacing-s) var(--spacing-m);
-}
+/* Tricky thought process...I was trying to isolate each part that constitutes a layout element, is the same order  */
+/* as they appear in the page. This was the hardest part. Trial and Terror :D  */
+/* Media quaries at the bottom as the have the final say in responsiveness  */
+/* Order here is from general to more specific selectors */
 
 header {
   display: flex;
@@ -10,6 +9,10 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: var(--spacing-xs) var(--spacing-m);
+
+  background-color: var(--color-secondary);
+  color: var(--color-text-secondary);
+  padding: var(--spacing-s) var(--spacing-m);
 }
 
 header h1 {
