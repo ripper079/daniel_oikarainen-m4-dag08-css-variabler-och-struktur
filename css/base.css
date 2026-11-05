@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+
+  /* Added */
+  font-family: var(--fn-family-primary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+/* body {
+  font-family: var(--fn-family-primary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+ */
+
+
+h1,
+h2,
+h3 {
+  font-family: var(--fn-family-secondary);
+  line-height: 1.2;
+  color: #3b2418;
+}
+
+
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0 0 var(--spacing-s);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 12px 0 var(--spacing-xs);
+}
+
+a {
+  color: var(--color-primary);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #5e0a0a;
+}
+
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+
+
+
+
+
+
+address {
+  font-style: normal;
+}
+

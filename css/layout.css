@@ -1,0 +1,151 @@
+header {
+  background-color: var(--color-secondary);
+  color: var(--color-text-secondary);
+  padding: var(--spacing-s) var(--spacing-m);
+}
+
+/* ===== Dag 5: Flexbox ===== */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-xs) var(--spacing-m);
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+header h1 {
+  margin: 0 0 var(--spacing-xs);
+}
+
+header h1 {
+  color: var(--color-text-secondary);
+  font-size: 1.75rem;
+}
+
+nav a {
+  font-weight: 600;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+
+nav a {
+  color: var(--color-text-secondary);
+}
+
+
+main {
+  /* padding: 24px; */
+  padding: var(--spacing-m);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+
+#hero {
+  background-color: var(--color-surface);
+  /* padding: 32px 24px; */
+  padding: var(--spacing-l) var(--spacing-m);
+  border-radius: 8px;
+}
+
+#hero p {
+  font-size: 1.125rem;
+  max-width: 60ch;
+}
+
+/* ===== Dag 6: Grid ===== */
+.meny-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.meny-lista article {
+  margin-bottom: 0;
+}
+
+#om-oss {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xs) var(--spacing-l);
+}
+
+#om-oss h2 {
+  grid-column: 1 / -1;
+}
+
+
+footer {
+  background-color: #2b1c14;
+  color: var(--color-text-secondary);
+  /* padding: 24px; */
+  padding: var(--spacing-m);
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--spacing-s);
+}
+
+footer a {
+  color: var(--color-text-secondary);
+}
+
+
+
+
+
+
+
+/* ===== Dag 7: Responsiv design (mobile first) ===== */
+@media (min-width: 600px) {
+  main {
+    padding: var(--spacing-l);
+  }
+
+  #hero {
+    padding: 56px 40px;
+  }
+
+  #hero h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 900px) {
+  #om-oss {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  #om-oss img {
+    grid-row: 2 / span 2;
+    grid-column: 2;
+  }
+
+  header {
+    padding: 20px 48px;
+  }
+}
